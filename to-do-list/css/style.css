@@ -1,0 +1,50 @@
+
+#card {
+      background-color: #161313;
+      padding: 20px;
+      border-radius: 10px;
+      border: 2px solid #3b82f6;
+     
+    }
+
+ .completed span {
+  text-decoration: line-through; 
+  color: gray;
+  font-style: italic;
+
+}
+ .completed {
+  background-color: #d4edda;
+  border-left: 5px solid green;
+  padding: 5px;
+}
+.edit-btn{
+  background: none;
+  color:red;
+  border: none;
+ 
+
+}
+.delete-btn{
+background: none;
+  color:red;
+  border: none;
+
+}
+
+#ul{
+  list-style: none;
+}
+.task-item{
+  border: 1px solid white;
+  border-radius: 3px;
+ padding: 8px 0px;
+ margin: 10px 0px;
+}
+.task-text{
+  margin-right: 80px;
+}
+.task-checkbox{
+  margin-right: 10px;
+  padding-top: 10px;
+}
